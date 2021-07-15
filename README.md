@@ -5,12 +5,9 @@
 2.tapSelectOnePage: (selectPage: number) => void; //选中某一页触发
 第二个参数其实是一个函数回调，用户在切换页码的时候会触发，也就回回传给组件使用处，方便做数据处理。
 例：
-//用户选择第几页
+
     function _didSelectOnePage(page: number) {
         console.log("用户点击了第" + page + "页");
         
     }
-<PageComponent
-                    pageCount={12}
-                    tapSelectOnePage={_didSelectOnePage}
-                ></PageComponent>
+<PageComponent  pageCount={12}  tapSelectOnePage={_didSelectOnePage}></PageComponent>
