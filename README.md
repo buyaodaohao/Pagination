@@ -16,4 +16,7 @@
     
    
  调用方法    
+
+#
 <PageComponent  pageCount={12}  tapSelectOnePage={_didSelectOnePage}></PageComponent>
+#
