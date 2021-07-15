@@ -10,4 +10,10 @@
         console.log("用户点击了第" + page + "页");
         
     }
+    
+    
+    
+    
+   
+ 调用方法    
 <PageComponent  pageCount={12}  tapSelectOnePage={_didSelectOnePage}></PageComponent>
